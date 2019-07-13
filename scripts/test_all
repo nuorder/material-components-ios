@@ -20,7 +20,7 @@ readonly COVERAGE_OPTIONS="GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TES
 
 # When run on Travis CI, this variable should be passed in
 if [[ ! $DESTINATION ]]; then
-  DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=latest"
+  DESTINATION="platform=iOS Simulator,name=iPhone 7,OS=11.2"
 fi
 
 # Given a path to an Xcode log file in $1, print a guess at what caused the
