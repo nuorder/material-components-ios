@@ -75,7 +75,7 @@ Pod::Spec.new do |mdc|
     component.public_header_files = "components/#{component.base_name}/src/MDCBottomNavigationBarController.h", "components/#{component.base_name}/src/MaterialBottomNavigationBeta.h"
     component.source_files = [
       "components/#{component.base_name}/src/MDCBottomNavigationBarController.*", "components/#{component.base_name}/src/MaterialBottomNavigationBeta.h",
-      "components/#{component.base_name}/src/private/*.{h,m}"
+      "components/#{component.base_name}/src/private/MDCBottomNavigationBar+Private.h"
     ]
     component.dependency "MaterialComponents/BottomNavigation"
     component.test_spec 'UnitTests' do |unit_tests|
